@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gaze | JIABEI ZENG</title>
+    <link>https://dualplus.github.io/tag/gaze/</link>
+      <atom:link href="https://dualplus.github.io/tag/gaze/index.xml" rel="self" type="application/rss+xml" />
+    <description>gaze</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 26 Oct 2021 18:54:51 +0800</lastBuildDate>
+    <image>
+      <url>https://dualplus.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>gaze</title>
+      <link>https://dualplus.github.io/tag/gaze/</link>
+    </image>
+    
+    <item>
+      <title>Cross-Encoder for Unsupervised Gaze Representation Learning</title>
+      <link>https://dualplus.github.io/publication/2021-iccv-crossencoder/</link>
+      <pubDate>Tue, 26 Oct 2021 18:54:51 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2021-iccv-crossencoder/</guid>
+      <description>&lt;p&gt;in Proceedings of IEEE International Conference on Computer Vision(ICCV), 2021.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

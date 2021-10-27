@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | JIABEI ZENG</title>
+    <link>https://dualplus.github.io/publication/</link>
+      <atom:link href="https://dualplus.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 26 Oct 2021 18:54:51 +0800</lastBuildDate>
+    <image>
+      <url>https://dualplus.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Publications</title>
+      <link>https://dualplus.github.io/publication/</link>
+    </image>
+    
+    <item>
+      <title>Cross-Encoder for Unsupervised Gaze Representation Learning</title>
+      <link>https://dualplus.github.io/publication/2021-iccv-crossencoder/</link>
+      <pubDate>Tue, 26 Oct 2021 18:54:51 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2021-iccv-crossencoder/</guid>
+      <description>&lt;p&gt;in Proceedings of IEEE International Conference on Computer Vision(ICCV), 2021.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>M3F:Multi-Modal Continuous Valence-Arousal Estimation in the Wild</title>
+      <link>https://dualplus.github.io/publication/2020-fgw-va/</link>
+      <pubDate>Sat, 26 Dec 2020 21:25:43 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2020-fgw-va/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Progress and Challenges in Facial Action Unit Detection</title>
+      <link>https://dualplus.github.io/publication/2020-ausurvey/</link>
+      <pubDate>Thu, 26 Nov 2020 21:28:14 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2020-ausurvey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Facial Expression Recognition for In-the-wild Videos</title>
+      <link>https://dualplus.github.io/publication/2020-fgw-emot/</link>
+      <pubDate>Thu, 26 Nov 2020 21:25:49 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2020-fgw-emot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Representations for Facial Actions from Unlabeled Videos</title>
+      <link>https://dualplus.github.io/publication/2020-tpami-tae/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://dualplus.github.io/publication/2020-tpami-tae/</guid>
+      <description>&lt;p&gt;in IEEE Transactions on Pattern Analysis and Machine Intelligence, 2020.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multi-task Learning of Emotion Recognition and Facial Action Unit Detection with Adaptively Weights Sharing Network</title>
+      <link>https://dualplus.github.io/publication/2019-icip-multitask/</link>
+      <pubDate>Sun, 15 Sep 2019 21:24:32 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2019-icip-multitask/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-supervised Representation Learning from Videos for Facial Action Unit Detection</title>
+      <link>https://dualplus.github.io/publication/2019-cvpr-tcae/</link>
+      <pubDate>Sun, 16 Jun 2019 19:19:34 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2019-cvpr-tcae/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Occlusion Aware Facial Expression Recognition Using CNN With Attention Mechanism</title>
+      <link>https://dualplus.github.io/publication/2019-tip-pg/</link>
+      <pubDate>Fri, 26 Apr 2019 19:20:01 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2019-tip-pg/</guid>
+      <description>&lt;p&gt;in IEEE Transactions on Image Processing, 2019, 28(5): 2439-2450.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Zero-shot Facial Expression Recognition with Multi-label Label Propagation</title>
+      <link>https://dualplus.github.io/publication/2018-accv-zero/</link>
+      <pubDate>Tue, 04 Dec 2018 19:20:55 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2018-accv-zero/</guid>
+      <description>&lt;p&gt;in Proceedings of Asian Conference on Computer Vision(ACCV), 2018.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Automatic engagement prediction with GAP feature</title>
+      <link>https://dualplus.github.io/publication/2018-icmi-engagement/</link>
+      <pubDate>Fri, 26 Oct 2018 21:25:17 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2018-icmi-engagement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Facial Expression Recognition with Inconsistently Annotated Datasets</title>
+      <link>https://dualplus.github.io/publication/2018-eccv-latent/</link>
+      <pubDate>Sat, 08 Sep 2018 19:20:20 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2018-eccv-latent/</guid>
+      <description>&lt;p&gt;in Proceedings of European Conference on Computer Vision(ECCV), 2018.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dimensionality Reduction in Multiple Ordinal Regression</title>
+      <link>https://dualplus.github.io/publication/2018-tnnls-drmor/</link>
+      <pubDate>Sat, 01 Sep 2018 19:21:18 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2018-tnnls-drmor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Patch-gated CNN for Occlusion-aware Facial Expression Recognition</title>
+      <link>https://dualplus.github.io/publication/2018-icpr-pg/</link>
+      <pubDate>Thu, 16 Aug 2018 21:24:05 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2018-icpr-pg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Channel Pose-Aware Convolution Neural Networks for Multi-View Facial Expression Recognition</title>
+      <link>https://dualplus.github.io/publication/2018-fg-yuanyuan/</link>
+      <pubDate>Sun, 27 May 2018 22:49:30 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2018-fg-yuanyuan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kinnet: Fine-to-coarse Deep Metric Learning for Kinship Verification</title>
+      <link>https://dualplus.github.io/publication/2017-acmmmw-kinship/</link>
+      <pubDate>Fri, 01 Sep 2017 21:26:06 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2017-acmmmw-kinship/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Confidence Preserving Machine for Facial Action Unit Detection</title>
+      <link>https://dualplus.github.io/publication/2016-tip-cpm/</link>
+      <pubDate>Wed, 26 Oct 2016 19:20:40 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2016-tip-cpm/</guid>
+      <description>&lt;p&gt;in IEEE Transactions on Image Processing, 2016, 25(10): 4753-4767.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Confidence Preserving Machine for Facial Action Unit Detection</title>
+      <link>https://dualplus.github.io/publication/2015-iccv-cpm/</link>
+      <pubDate>Tue, 08 Dec 2015 21:26:43 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2015-iccv-cpm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unsupervised Synchrony Discovery in Human Interaction</title>
+      <link>https://dualplus.github.io/publication/2015-iccv-usd/</link>
+      <pubDate>Mon, 07 Dec 2015 21:26:48 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2015-iccv-usd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3-D Object Retrieval using Topic Model</title>
+      <link>https://dualplus.github.io/publication/2015-mta-3d/</link>
+      <pubDate>Tue, 01 Sep 2015 21:27:11 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2015-mta-3d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3D Object Retrieval with Multi-topic Model Combining Relevance Feedback and LDA Model</title>
+      <link>https://dualplus.github.io/publication/2015-tip-3d/</link>
+      <pubDate>Mon, 26 Jan 2015 21:26:58 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2015-tip-3d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Probability tree based passenger flow prediction and its application to the Beijing subway system</title>
+      <link>https://dualplus.github.io/publication/2013-metro/</link>
+      <pubDate>Tue, 02 Jul 2013 21:27:30 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2013-metro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pedestrian dynamics in a two-dimensional complex scenario using a local view floor field model</title>
+      <link>https://dualplus.github.io/publication/2011-phy/</link>
+      <pubDate>Fri, 26 Aug 2011 21:27:22 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2011-phy/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
