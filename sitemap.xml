@@ -11,6 +11,45 @@
     <loc>https://dualplus.github.io/event/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://dualplus.github.io/project/</loc>
+    <lastmod>2021-10-28T09:19:28+08:00</lastmod>
+  </url><url>
+    <loc>https://dualplus.github.io/tag/psyc-discorders/</loc>
+    <lastmod>2021-10-28T09:19:28+08:00</lastmod>
+  </url><url>
+    <loc>https://dualplus.github.io/tags/</loc>
+    <lastmod>2021-10-28T09:19:28+08:00</lastmod>
+  </url><url>
+    <loc>https://dualplus.github.io/project/asd/</loc>
+    <lastmod>2021-10-28T09:19:28+08:00</lastmod>
+  </url><url>
+    <loc>https://dualplus.github.io/project/2d_gaze/</loc>
+    <lastmod>2021-10-28T09:17:16+08:00</lastmod>
+  </url><url>
+    <loc>https://dualplus.github.io/tag/gaze-estimation/</loc>
+    <lastmod>2021-10-28T09:17:16+08:00</lastmod>
+  </url><url>
+    <loc>https://dualplus.github.io/project/3d_gaze/</loc>
+    <lastmod>2021-10-28T09:17:09+08:00</lastmod>
+  </url><url>
+    <loc>https://dualplus.github.io/project/au/</loc>
+    <lastmod>2021-10-28T09:13:08+08:00</lastmod>
+  </url><url>
+    <loc>https://dualplus.github.io/tag/facial-expression-analysis/</loc>
+    <lastmod>2021-10-28T09:13:08+08:00</lastmod>
+  </url><url>
+    <loc>https://dualplus.github.io/project/emotion/</loc>
+    <lastmod>2021-10-28T09:06:10+08:00</lastmod>
+  </url><url>
+    <loc>https://dualplus.github.io/project/cross-encoder/</loc>
+    <lastmod>2021-10-28T09:04:54+08:00</lastmod>
+  </url><url>
+    <loc>https://dualplus.github.io/tag/self-supervised-learning/</loc>
+    <lastmod>2021-10-28T09:04:54+08:00</lastmod>
+  </url><url>
+    <loc>https://dualplus.github.io/project/twin-cycle/</loc>
+    <lastmod>2021-10-28T09:04:42+08:00</lastmod>
+  </url><url>
     <loc>https://dualplus.github.io/publication-type/1/</loc>
     <lastmod>2021-10-26T18:54:51+08:00</lastmod>
   </url><url>
@@ -27,9 +66,6 @@
     <lastmod>2021-10-26T18:54:51+08:00</lastmod>
   </url><url>
     <loc>https://dualplus.github.io/tag/selected/</loc>
-    <lastmod>2021-10-26T18:54:51+08:00</lastmod>
-  </url><url>
-    <loc>https://dualplus.github.io/tags/</loc>
     <lastmod>2021-10-26T18:54:51+08:00</lastmod>
   </url><url>
     <loc>https://dualplus.github.io/publication/2020-fgw-va/</loc>
@@ -117,9 +153,6 @@
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dualplus.github.io/project/example/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dualplus.github.io/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dualplus.github.io/publication/2015-iccv-cpm/</loc>

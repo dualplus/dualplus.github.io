@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>psyc-discorders | JIABEI ZENG</title>
+    <link>https://dualplus.github.io/tag/psyc-discorders/</link>
+      <atom:link href="https://dualplus.github.io/tag/psyc-discorders/index.xml" rel="self" type="application/rss+xml" />
+    <description>psyc-discorders</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 28 Oct 2021 09:19:28 +0800</lastBuildDate>
+    <image>
+      <url>https://dualplus.github.io/media/icon_hu6a4c22a3e5388e8d98a1bea1d53893d8_41243_512x512_fill_lanczos_center_3.png</url>
+      <title>psyc-discorders</title>
+      <link>https://dualplus.github.io/tag/psyc-discorders/</link>
+    </image>
+    
+    <item>
+      <title>TODO</title>
+      <link>https://dualplus.github.io/project/asd/</link>
+      <pubDate>Thu, 28 Oct 2021 09:19:28 +0800</pubDate>
+      <guid>https://dualplus.github.io/project/asd/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

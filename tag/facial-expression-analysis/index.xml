@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>facial-expression-analysis | JIABEI ZENG</title>
+    <link>https://dualplus.github.io/tag/facial-expression-analysis/</link>
+      <atom:link href="https://dualplus.github.io/tag/facial-expression-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <description>facial-expression-analysis</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 28 Oct 2021 09:13:08 +0800</lastBuildDate>
+    <image>
+      <url>https://dualplus.github.io/media/icon_hu6a4c22a3e5388e8d98a1bea1d53893d8_41243_512x512_fill_lanczos_center_3.png</url>
+      <title>facial-expression-analysis</title>
+      <link>https://dualplus.github.io/tag/facial-expression-analysis/</link>
+    </image>
+    
+    <item>
+      <title>Facial Action Unit Detection</title>
+      <link>https://dualplus.github.io/project/au/</link>
+      <pubDate>Thu, 28 Oct 2021 09:13:08 +0800</pubDate>
+      <guid>https://dualplus.github.io/project/au/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emotion Classification</title>
+      <link>https://dualplus.github.io/project/emotion/</link>
+      <pubDate>Thu, 28 Oct 2021 09:06:10 +0800</pubDate>
+      <guid>https://dualplus.github.io/project/emotion/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
