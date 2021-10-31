@@ -17,13 +17,9 @@
   
   
   
-    
-    
-    
-  
   
 
-  <meta name="author" content="Jiabei Zeng" />
+  
 
   
   
@@ -62,6 +58,9 @@
   
 
   
+  
+    
+    <script src="/js/mathjax-config.js"></script>
   
 
   
@@ -210,9 +209,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -619,8 +618,6 @@
 
       
       
-        
-      
 
       
       
@@ -788,6 +785,18 @@
 
 
 
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/project/3d_gaze/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/project/cross-encoder/">
+    Project
+  </a>
+  
+
 
 
   
@@ -816,6 +825,9 @@
 
   <div class="article-container">
 
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">In order to train 3D gaze estimators without too many annotations, we propose an unsupervised learning framework, Cross-Encoder, to leverage the unlabeled data to learn suitable representation for gaze estimation. To address the issue that the feature of gaze is always intertwined with the appearance of the eye, Cross-Encoder disentangles the features using a latent-code-swapping mechanism on eye-consistent image pairs and gaze-similar ones. Specifically, each image is encoded as a gaze feature and an eye feature. Cross-Encoder is trained to reconstruct each image in the eye-consistent pair according to its gaze feature and the other&rsquo;s eye feature, but to reconstruct each image in the gaze-similar pair according to its eye feature and the other&rsquo;s gaze feature. Experimental results show the validity of our work. First, using the Cross-Encoder-learned gaze representation, the gaze estimator trained with very few samples outperforms the ones using other unsupervised learning methods, under both within-dataset and cross-dataset protocol. Second, ResNet18 pretrained by Cross-Encoder is competitive with state-of-the-art gaze estimation methods. Third, ablation study shows that Cross-Encoder disentangles the gaze feature and eye feature.</p>
     
 
     
@@ -866,96 +878,14 @@
   
   <a class="badge badge-light" href="/tag/selected/">selected</a>
   
-  <a class="badge badge-light" href="/tag/gaze/">gaze</a>
+  <a class="badge badge-light" href="/tag/gaze-estimation/">gaze-estimation</a>
+  
+  <a class="badge badge-light" href="/tag/self-supervised-learning/">self-supervised-learning</a>
   
 </div>
 
 
 
-<div class="share-box" aria-hidden="true">
-  <ul class="share">
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://twitter.com/intent/tweet?url=https://dualplus.github.io/publication/2021-iccv-crossencoder/&amp;text=Cross-Encoder%20for%20Unsupervised%20Gaze%20Representation%20Learning" target="_blank" rel="noopener" class="share-btn-twitter">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://dualplus.github.io/publication/2021-iccv-crossencoder/&amp;t=Cross-Encoder%20for%20Unsupervised%20Gaze%20Representation%20Learning" target="_blank" rel="noopener" class="share-btn-facebook">
-          <i class="fab fa-facebook"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="mailto:?subject=Cross-Encoder%20for%20Unsupervised%20Gaze%20Representation%20Learning&amp;body=https://dualplus.github.io/publication/2021-iccv-crossencoder/" target="_blank" rel="noopener" class="share-btn-email">
-          <i class="fas fa-envelope"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://dualplus.github.io/publication/2021-iccv-crossencoder/&amp;title=Cross-Encoder%20for%20Unsupervised%20Gaze%20Representation%20Learning" target="_blank" rel="noopener" class="share-btn-linkedin">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="whatsapp://send?text=Cross-Encoder%20for%20Unsupervised%20Gaze%20Representation%20Learning%20https://dualplus.github.io/publication/2021-iccv-crossencoder/" target="_blank" rel="noopener" class="share-btn-whatsapp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://dualplus.github.io/publication/2021-iccv-crossencoder/&amp;title=Cross-Encoder%20for%20Unsupervised%20Gaze%20Representation%20Learning" target="_blank" rel="noopener" class="share-btn-weibo">
-          <i class="fab fa-weibo"></i>
-        </a>
-      </li>
-    
-  </ul>
-</div>
-
 
 
 
@@ -972,29 +902,21 @@
 
 
 
-
-  
-    
-
-
-
   
   
-  
-    
   
   
   
   <div class="media author-card content-widget-hr">
     
       
-      <a href="https://dualplus.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_huc39475a7bdf41e923fe1e69f7783f977_1131251_270x270_fill_q75_lanczos_center.jpg" alt="Jiabei Zeng"></a>
+      <img class="avatar mr-3 avatar-circle" src="/authors/sunyunjia/avatar_hu72edf99525aed593770dd2fa13a14c81_18435_270x270_fill_lanczos_center_3.png" alt="Yunjia Sun">
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="https://dualplus.github.io/">Jiabei Zeng</a></h5>
-      <h6 class="card-subtitle">Associate Professor</h6>
-      <p class="card-text">My research interests include computer vision, machine learning, and affective computing.</p>
+      <h5 class="card-title">Yunjia Sun</h5>
+      <h6 class="card-subtitle">Ph.D. student</h6>
+      
       <ul class="network-icon" aria-hidden="true">
   
     
@@ -1009,7 +931,50 @@
       
     
     <li>
-      <a href="/#contact" >
+      <a href="https://vipl.ict.ac.cn/en/view_people.php?id=243" target="_blank" rel="noopener">
+        <i class="fas fa-home"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_huc39475a7bdf41e923fe1e69f7783f977_1131251_270x270_fill_q75_lanczos_center.jpg" alt="Jiabei Zeng">
+    
+
+    <div class="media-body">
+      <h5 class="card-title">Jiabei Zeng</h5>
+      <h6 class="card-subtitle">Associate Professor</h6>
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:jiabei.zeng@ict.ac.cn" >
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -1074,47 +1039,71 @@
 
 
 
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="avatar mr-3 avatar-circle" src="/authors/shanshiguang/avatar_hu61709aac3b5a49f45aa68fe50c907a6f_37696_270x270_fill_lanczos_center_3.png" alt="Shiguang Shan">
+    
+
+    <div class="media-body">
+      <h5 class="card-title">Shiguang Shan</h5>
+      <h6 class="card-subtitle">Professor</h6>
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
 
   
     
 
 
 
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   
   
-  <div class="article-widget content-widget-hr">
-    <h3>Related</h3>
-    <ul>
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
       
-      <li><a href="/publication/2020-tpami-tae/">Learning Representations for Facial Actions from Unlabeled Videos</a></li>
+      <img class="avatar mr-3 avatar-circle" src="/authors/chenxilin/avatar_hu61709aac3b5a49f45aa68fe50c907a6f_37696_270x270_fill_lanczos_center_3.png" alt="Xilin Chen">
+    
+
+    <div class="media-body">
+      <h5 class="card-title">Xilin Chen</h5>
+      <h6 class="card-subtitle">Professor</h6>
       
-      <li><a href="/publication/2019-tip-pg/">Occlusion Aware Facial Expression Recognition Using CNN With Attention Mechanism</a></li>
-      
-      <li><a href="/publication/2018-accv-zero/">Zero-shot Facial Expression Recognition with Multi-label Label Propagation</a></li>
-      
-      <li><a href="/publication/2018-eccv-latent/">Facial Expression Recognition with Inconsistently Annotated Datasets</a></li>
-      
-      <li><a href="/publication/2016-tip-cpm/">Confidence Preserving Machine for Facial Action Unit Detection</a></li>
-      
-    </ul>
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
   </div>
+
+
   
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

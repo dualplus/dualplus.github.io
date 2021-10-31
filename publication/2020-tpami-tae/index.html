@@ -17,13 +17,9 @@
   
   
   
-    
-    
-    
-  
   
 
-  <meta name="author" content="Jiabei Zeng" />
+  
 
   
   
@@ -62,6 +58,9 @@
   
 
   
+  
+    
+    <script src="/js/mathjax-config.js"></script>
   
 
   
@@ -210,9 +209,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -619,8 +618,6 @@
 
       
       
-        
-      
 
       
       
@@ -787,6 +784,18 @@
 
 
 
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/project/au/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/project/twin-cycle/">
+    Project
+  </a>
+  
+
 
 
 
@@ -815,6 +824,9 @@
 
   <div class="article-container">
 
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Facial actions are usually encoded as anatomy-based action units (AUs), the labelling of which demands expertise and thus is time-consuming and expensive. To alleviate the labelling demand, we propose to leverage the large number of unlabelled videos by proposing a Twin-cycle Autoencoder (TAE) to learn discriminative representations for facial actions. TAE is inspired by the fact that facial actions are embedded in the pixel-wise displacements between two sequential face images (hereinafter, source and target) in the video. Therefore, learning the representations of facial actions can be achieved by learning the representations of the displacements. However, the displacements induced by facial actions are entangled with those induced by head motions. TAE is thus trained to disentangle the two kinds of movements by evaluating the quality of the synthesized images when either the facial actions or head pose is changed, aiming to reconstruct the target image. Experiments on AU detection show that TAE can achieve accuracy comparable to other existing AU detection methods including some supervised methods, thus validating the discriminant capacity of the representations learned by TAE. TAE&rsquo;s ability in decoupling the action-induced and pose-induced movements is also validated by visualizing the generated images and analyzing the facial image retrieval results qualitatively and quantitatively.</p>
     
 
     
@@ -865,96 +877,10 @@
   
   <a class="badge badge-light" href="/tag/selected/">selected</a>
   
-  <a class="badge badge-light" href="/tag/facial-expression/">facial expression</a>
+  <a class="badge badge-light" href="/tag/self-supervised-learning/">self-supervised-learning</a>
   
-  <a class="badge badge-light" href="/tag/self-supervised/">self-supervised</a>
+  <a class="badge badge-light" href="/tag/au/">AU</a>
   
-</div>
-
-
-
-<div class="share-box" aria-hidden="true">
-  <ul class="share">
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://twitter.com/intent/tweet?url=https://dualplus.github.io/publication/2020-tpami-tae/&amp;text=Learning%20Representations%20for%20Facial%20Actions%20from%20Unlabeled%20Videos" target="_blank" rel="noopener" class="share-btn-twitter">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://dualplus.github.io/publication/2020-tpami-tae/&amp;t=Learning%20Representations%20for%20Facial%20Actions%20from%20Unlabeled%20Videos" target="_blank" rel="noopener" class="share-btn-facebook">
-          <i class="fab fa-facebook"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="mailto:?subject=Learning%20Representations%20for%20Facial%20Actions%20from%20Unlabeled%20Videos&amp;body=https://dualplus.github.io/publication/2020-tpami-tae/" target="_blank" rel="noopener" class="share-btn-email">
-          <i class="fas fa-envelope"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://dualplus.github.io/publication/2020-tpami-tae/&amp;title=Learning%20Representations%20for%20Facial%20Actions%20from%20Unlabeled%20Videos" target="_blank" rel="noopener" class="share-btn-linkedin">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="whatsapp://send?text=Learning%20Representations%20for%20Facial%20Actions%20from%20Unlabeled%20Videos%20https://dualplus.github.io/publication/2020-tpami-tae/" target="_blank" rel="noopener" class="share-btn-whatsapp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://dualplus.github.io/publication/2020-tpami-tae/&amp;title=Learning%20Representations%20for%20Facial%20Actions%20from%20Unlabeled%20Videos" target="_blank" rel="noopener" class="share-btn-weibo">
-          <i class="fab fa-weibo"></i>
-        </a>
-      </li>
-    
-  </ul>
 </div>
 
 
@@ -967,6 +893,8 @@
 
 
 
+
+
   
   
     
@@ -981,21 +909,19 @@
 
   
   
-  
-    
   
   
   
   <div class="media author-card content-widget-hr">
     
       
-      <a href="https://dualplus.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_huc39475a7bdf41e923fe1e69f7783f977_1131251_270x270_fill_q75_lanczos_center.jpg" alt="Jiabei Zeng"></a>
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_huc39475a7bdf41e923fe1e69f7783f977_1131251_270x270_fill_q75_lanczos_center.jpg" alt="Jiabei Zeng">
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="https://dualplus.github.io/">Jiabei Zeng</a></h5>
+      <h5 class="card-title">Jiabei Zeng</h5>
       <h6 class="card-subtitle">Associate Professor</h6>
-      <p class="card-text">My research interests include computer vision, machine learning, and affective computing.</p>
+      
       <ul class="network-icon" aria-hidden="true">
   
     
@@ -1007,10 +933,8 @@
     
     
     
-      
-    
     <li>
-      <a href="/#contact" >
+      <a href="mailto:jiabei.zeng@ict.ac.cn" >
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -1090,26 +1014,6 @@
 
 
 
-
-  
-  
-  <div class="article-widget content-widget-hr">
-    <h3>Related</h3>
-    <ul>
-      
-      <li><a href="/publication/2019-tip-pg/">Occlusion Aware Facial Expression Recognition Using CNN With Attention Mechanism</a></li>
-      
-      <li><a href="/publication/2018-accv-zero/">Zero-shot Facial Expression Recognition with Multi-label Label Propagation</a></li>
-      
-      <li><a href="/publication/2018-eccv-latent/">Facial Expression Recognition with Inconsistently Annotated Datasets</a></li>
-      
-      <li><a href="/publication/2016-tip-cpm/">Confidence Preserving Machine for Facial Action Unit Detection</a></li>
-      
-      <li><a href="/publication/2021-iccv-crossencoder/">Cross-Encoder for Unsupervised Gaze Representation Learning</a></li>
-      
-    </ul>
-  </div>
-  
 
 
 

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AU | JIABEI ZENG</title>
+    <link>https://dualplus.github.io/tag/au/</link>
+      <atom:link href="https://dualplus.github.io/tag/au/index.xml" rel="self" type="application/rss+xml" />
+    <description>AU</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 28 Oct 2021 09:13:08 +0800</lastBuildDate>
+    <image>
+      <url>https://dualplus.github.io/media/icon_hu6a4c22a3e5388e8d98a1bea1d53893d8_41243_512x512_fill_lanczos_center_3.png</url>
+      <title>AU</title>
+      <link>https://dualplus.github.io/tag/au/</link>
+    </image>
+    
+    <item>
+      <title>Facial Action Unit Detection</title>
+      <link>https://dualplus.github.io/project/au/</link>
+      <pubDate>Thu, 28 Oct 2021 09:13:08 +0800</pubDate>
+      <guid>https://dualplus.github.io/project/au/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Representations for Facial Actions from Unlabeled Videos</title>
+      <link>https://dualplus.github.io/publication/2020-tpami-tae/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://dualplus.github.io/publication/2020-tpami-tae/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-task Learning of Emotion Recognition and Facial Action Unit Detection with Adaptively Weights Sharing Network</title>
+      <link>https://dualplus.github.io/publication/2019-icip-multitask/</link>
+      <pubDate>Sun, 15 Sep 2019 21:24:32 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2019-icip-multitask/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-supervised Representation Learning from Videos for Facial Action Unit Detection</title>
+      <link>https://dualplus.github.io/publication/2019-cvpr-tcae/</link>
+      <pubDate>Sun, 16 Jun 2019 19:19:34 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2019-cvpr-tcae/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Confidence Preserving Machine for Facial Action Unit Detection</title>
+      <link>https://dualplus.github.io/publication/2016-tip-cpm/</link>
+      <pubDate>Wed, 26 Oct 2016 19:20:40 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2016-tip-cpm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Confidence Preserving Machine for Facial Action Unit Detection</title>
+      <link>https://dualplus.github.io/publication/2015-iccv-cpm/</link>
+      <pubDate>Tue, 08 Dec 2015 21:26:43 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2015-iccv-cpm/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

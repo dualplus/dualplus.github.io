@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FER | JIABEI ZENG</title>
+    <link>https://dualplus.github.io/tag/fer/</link>
+      <atom:link href="https://dualplus.github.io/tag/fer/index.xml" rel="self" type="application/rss+xml" />
+    <description>FER</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 28 Oct 2021 09:06:10 +0800</lastBuildDate>
+    <image>
+      <url>https://dualplus.github.io/media/icon_hu6a4c22a3e5388e8d98a1bea1d53893d8_41243_512x512_fill_lanczos_center_3.png</url>
+      <title>FER</title>
+      <link>https://dualplus.github.io/tag/fer/</link>
+    </image>
+    
+    <item>
+      <title>Emotion Classification</title>
+      <link>https://dualplus.github.io/project/emotion/</link>
+      <pubDate>Thu, 28 Oct 2021 09:06:10 +0800</pubDate>
+      <guid>https://dualplus.github.io/project/emotion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M3F:Multi-Modal Continuous Valence-Arousal Estimation in the Wild</title>
+      <link>https://dualplus.github.io/publication/2020-fgw-va/</link>
+      <pubDate>Sat, 26 Dec 2020 21:25:43 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2020-fgw-va/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Facial Expression Recognition for In-the-wild Videos</title>
+      <link>https://dualplus.github.io/publication/2020-fgw-emot/</link>
+      <pubDate>Thu, 26 Nov 2020 21:25:49 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2020-fgw-emot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-task Learning of Emotion Recognition and Facial Action Unit Detection with Adaptively Weights Sharing Network</title>
+      <link>https://dualplus.github.io/publication/2019-icip-multitask/</link>
+      <pubDate>Sun, 15 Sep 2019 21:24:32 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2019-icip-multitask/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Occlusion Aware Facial Expression Recognition Using CNN With Attention Mechanism</title>
+      <link>https://dualplus.github.io/publication/2019-tip-pg/</link>
+      <pubDate>Fri, 26 Apr 2019 19:20:01 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2019-tip-pg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zero-shot Facial Expression Recognition with Multi-label Label Propagation</title>
+      <link>https://dualplus.github.io/publication/2018-accv-zero/</link>
+      <pubDate>Tue, 04 Dec 2018 19:20:55 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2018-accv-zero/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Facial Expression Recognition with Inconsistently Annotated Datasets</title>
+      <link>https://dualplus.github.io/publication/2018-eccv-latent/</link>
+      <pubDate>Sat, 08 Sep 2018 19:20:20 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2018-eccv-latent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Patch-gated CNN for Occlusion-aware Facial Expression Recognition</title>
+      <link>https://dualplus.github.io/publication/2018-icpr-pg/</link>
+      <pubDate>Thu, 16 Aug 2018 21:24:05 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2018-icpr-pg/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

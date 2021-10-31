@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>engagement estimation | JIABEI ZENG</title>
+    <link>https://dualplus.github.io/tag/engagement-estimation/</link>
+      <atom:link href="https://dualplus.github.io/tag/engagement-estimation/index.xml" rel="self" type="application/rss+xml" />
+    <description>engagement estimation</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 26 Oct 2018 21:25:17 +0800</lastBuildDate>
+    <image>
+      <url>https://dualplus.github.io/media/icon_hu6a4c22a3e5388e8d98a1bea1d53893d8_41243_512x512_fill_lanczos_center_3.png</url>
+      <title>engagement estimation</title>
+      <link>https://dualplus.github.io/tag/engagement-estimation/</link>
+    </image>
+    
+    <item>
+      <title>Automatic engagement prediction with GAP feature</title>
+      <link>https://dualplus.github.io/publication/2018-icmi-engagement/</link>
+      <pubDate>Fri, 26 Oct 2018 21:25:17 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2018-icmi-engagement/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

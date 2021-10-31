@@ -17,13 +17,9 @@
   
   
   
-    
-    
-    
-  
   
 
-  <meta name="author" content="Jiabei Zeng" />
+  
 
   
   
@@ -62,6 +58,9 @@
   
 
   
+  
+    
+    <script src="/js/mathjax-config.js"></script>
   
 
   
@@ -210,9 +209,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -619,8 +618,6 @@
 
       
       
-        
-      
 
       
       
@@ -796,6 +793,12 @@
 
 
 
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/project/emotion/">
+    Project
+  </a>
+  
+
 
 
 
@@ -816,6 +819,9 @@
 
   <div class="article-container">
 
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Facial expression recognition in the wild is challenging due to various unconstrained conditions. Although existing facial expression classifiers have been almost perfect on analyzing constrained frontal faces, they fail to perform well on partially occluded faces that are common in the wild. In this paper, we propose a convolution neutral network (CNN) with attention mechanism (ACNN) that can perceive the occlusion regions of the face and focus on the most discriminative un-occluded regions. ACNN is an end-to-end learning framework. It combines the multiple representations from facial regions of interest (ROIs). Each representation is weighed via a proposed gate unit that computes an adaptive weight from the region itself according to the unobstructedness and importance. Considering different RoIs, we introduce two versions of ACNN: patch-based ACNN (pACNN) and global-local-based ACNN (gACNN). pACNN only pays attention to local facial patches. gACNN integrates local representations at patch-level with global representation at image-level. The proposed ACNNs are evaluated on both real and synthetic occlusions, including a self-collected facial expression dataset with real-world occlusions, the two largest in-the-wild facial expression datasets (RAF-DB and AffectNet) and their modifications with synthesized facial occlusions. Experimental results show that ACNNs improve the recognition accuracy on both the non-occluded faces and occluded faces. Visualization results demonstrate that, compared with the CNN without Gate Unit, ACNNs are capable of shifting the attention from the occluded patches to other related but unobstructed ones. ACNNs also outperform other state-of-the-art methods on several widely used in-the-lab facial expression datasets under the cross-dataset evaluation protocol.</p>
     
 
     
@@ -866,96 +872,12 @@
   
   <a class="badge badge-light" href="/tag/selected/">selected</a>
   
-  <a class="badge badge-light" href="/tag/facial-expression/">facial expression</a>
+  <a class="badge badge-light" href="/tag/fer/">FER</a>
   
 </div>
 
 
 
-<div class="share-box" aria-hidden="true">
-  <ul class="share">
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://twitter.com/intent/tweet?url=https://dualplus.github.io/publication/2019-tip-pg/&amp;text=Occlusion%20Aware%20Facial%20Expression%20Recognition%20Using%20CNN%20With%20Attention%20Mechanism" target="_blank" rel="noopener" class="share-btn-twitter">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://dualplus.github.io/publication/2019-tip-pg/&amp;t=Occlusion%20Aware%20Facial%20Expression%20Recognition%20Using%20CNN%20With%20Attention%20Mechanism" target="_blank" rel="noopener" class="share-btn-facebook">
-          <i class="fab fa-facebook"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="mailto:?subject=Occlusion%20Aware%20Facial%20Expression%20Recognition%20Using%20CNN%20With%20Attention%20Mechanism&amp;body=https://dualplus.github.io/publication/2019-tip-pg/" target="_blank" rel="noopener" class="share-btn-email">
-          <i class="fas fa-envelope"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://dualplus.github.io/publication/2019-tip-pg/&amp;title=Occlusion%20Aware%20Facial%20Expression%20Recognition%20Using%20CNN%20With%20Attention%20Mechanism" target="_blank" rel="noopener" class="share-btn-linkedin">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="whatsapp://send?text=Occlusion%20Aware%20Facial%20Expression%20Recognition%20Using%20CNN%20With%20Attention%20Mechanism%20https://dualplus.github.io/publication/2019-tip-pg/" target="_blank" rel="noopener" class="share-btn-whatsapp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://dualplus.github.io/publication/2019-tip-pg/&amp;title=Occlusion%20Aware%20Facial%20Expression%20Recognition%20Using%20CNN%20With%20Attention%20Mechanism" target="_blank" rel="noopener" class="share-btn-weibo">
-          <i class="fab fa-weibo"></i>
-        </a>
-      </li>
-    
-  </ul>
-</div>
-
 
 
 
@@ -980,21 +902,19 @@
 
   
   
-  
-    
   
   
   
   <div class="media author-card content-widget-hr">
     
       
-      <a href="https://dualplus.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_huc39475a7bdf41e923fe1e69f7783f977_1131251_270x270_fill_q75_lanczos_center.jpg" alt="Jiabei Zeng"></a>
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_huc39475a7bdf41e923fe1e69f7783f977_1131251_270x270_fill_q75_lanczos_center.jpg" alt="Jiabei Zeng">
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="https://dualplus.github.io/">Jiabei Zeng</a></h5>
+      <h5 class="card-title">Jiabei Zeng</h5>
       <h6 class="card-subtitle">Associate Professor</h6>
-      <p class="card-text">My research interests include computer vision, machine learning, and affective computing.</p>
+      
       <ul class="network-icon" aria-hidden="true">
   
     
@@ -1006,10 +926,8 @@
     
     
     
-      
-    
     <li>
-      <a href="/#contact" >
+      <a href="mailto:jiabei.zeng@ict.ac.cn" >
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -1095,26 +1013,6 @@
 
 
 
-
-  
-  
-  <div class="article-widget content-widget-hr">
-    <h3>Related</h3>
-    <ul>
-      
-      <li><a href="/publication/2020-tpami-tae/">Learning Representations for Facial Actions from Unlabeled Videos</a></li>
-      
-      <li><a href="/publication/2018-accv-zero/">Zero-shot Facial Expression Recognition with Multi-label Label Propagation</a></li>
-      
-      <li><a href="/publication/2018-eccv-latent/">Facial Expression Recognition with Inconsistently Annotated Datasets</a></li>
-      
-      <li><a href="/publication/2016-tip-cpm/">Confidence Preserving Machine for Facial Action Unit Detection</a></li>
-      
-      <li><a href="/publication/2021-iccv-crossencoder/">Cross-Encoder for Unsupervised Gaze Representation Learning</a></li>
-      
-    </ul>
-  </div>
-  
 
 
 

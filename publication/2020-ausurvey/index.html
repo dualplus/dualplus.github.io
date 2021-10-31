@@ -17,20 +17,16 @@
   
   
   
-    
-    
-    
-  
   
 
-  <meta name="author" content="Jiabei Zeng" />
+  
 
   
   
   
     
   
-  <meta name="description" content="The anatomically based facial action coding system defines a unique set of atomic nonoverlapping facial muscle actions called action units (AUs), which can accurately characterize facial expression. AUs correspond to muscular activities that produce momentary changes in facial appearance. Combinations of AUs can represent any facial expression. As a multilabel classification problem, AU detection suffers from insufficient AU annotations, various head poses, individual differences, and imbalance among different AUs. This article systematically summarizes representative methods that have been proposed since 2016 to facilitate the development of AU detection methods. According to different input data, AU detection methods are categorized on the basis of images, videos, and other modalities. We also discuss how AU detection methods can deal with partial supervision given the large scale of unlabeled data. Image-based methods, including approaches that learn local facial representations, exploit AU relations and utilize multitask and weakly supervised learning methods. Handcrafted or automatically learned local facial representations can represent local deformations caused by active AUs. However, the former is incapable of representing different AUs with adaptive local regions while the latter suffers from insufficient training data. Approaches that exploit AU relations can utilize prior knowledge that some AUs appear together or exclusively at the same time. Such methods adopt either Bayesian or graph neural networks to model manually inferred AU relations from annotations of specified datasets. However, these inflexible methods fail to perform cross dataset evaluation. Multitask AU detection methods are inspired by the phenomena that facial shapes represented by facial landmarks are helpful in AU detection and facial deformations caused by active AUs affect the location distribution of landmarks. Except for detecting facial AUs, such methods typically estimate facial landmarks or recognize facial expressions in a multitask manner. Other tasks of facial emotion analysis, such as emotional dimension estimation, can be incorporated in the multitask learning setting. Video-based methods are categorized into strategies that rely on temporal representation and self-supervised learning. Temporal representation learning methods commonly adopt long short-term memory (LSTM) or 3D convolutional neural networks (3D-CNNs) to model the temporal information. Other temporal representation approaches utilize optical flow between frames to detect facial AUs. Several self-supervised approaches have recently exploited the prior knowledge that facial actions, which are movements of facial muscles and between facial frames, can be used as the self-supervisory signal. Such video-based weakly supervised AU detection methods are reasonable and explainable and can effectively alleviate the problem of insufficient AU annotations. However, these methods rely on massive amounts of unlabeled video data in the training phase and fail to perform AU detection in an end-to-end manner. We also review methods that exploit point cloud or thermal images for AU detection and are capable of alleviating the influence of head pose or illumination. Finally, we compare representative methods and analyze their advantages and drawbacks. The analysis summarizes and discusses challenges and potential directions of AU detection. We conclude that methods capable of utilizing weakly annotated or unlabeled data are important research directions for future investigations. Such methods should be carefully designed according to the prior knowledge of AUs to alleviate the demand for large amounts of labeled data." />
+  <meta name="description" content="A survey in Journal of image and Graphics(in Chinese), 25(11):2293-2305, 2020." />
 
   
   <link rel="alternate" hreflang="en-us" href="https://dualplus.github.io/publication/2020-ausurvey/" />
@@ -62,6 +58,9 @@
   
 
   
+  
+    
+    <script src="/js/mathjax-config.js"></script>
   
 
   
@@ -210,9 +209,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -295,7 +294,7 @@
   <meta property="og:site_name" content="JIABEI ZENG" />
   <meta property="og:url" content="https://dualplus.github.io/publication/2020-ausurvey/" />
   <meta property="og:title" content="Progress and Challenges in Facial Action Unit Detection | JIABEI ZENG" />
-  <meta property="og:description" content="The anatomically based facial action coding system defines a unique set of atomic nonoverlapping facial muscle actions called action units (AUs), which can accurately characterize facial expression. AUs correspond to muscular activities that produce momentary changes in facial appearance. Combinations of AUs can represent any facial expression. As a multilabel classification problem, AU detection suffers from insufficient AU annotations, various head poses, individual differences, and imbalance among different AUs. This article systematically summarizes representative methods that have been proposed since 2016 to facilitate the development of AU detection methods. According to different input data, AU detection methods are categorized on the basis of images, videos, and other modalities. We also discuss how AU detection methods can deal with partial supervision given the large scale of unlabeled data. Image-based methods, including approaches that learn local facial representations, exploit AU relations and utilize multitask and weakly supervised learning methods. Handcrafted or automatically learned local facial representations can represent local deformations caused by active AUs. However, the former is incapable of representing different AUs with adaptive local regions while the latter suffers from insufficient training data. Approaches that exploit AU relations can utilize prior knowledge that some AUs appear together or exclusively at the same time. Such methods adopt either Bayesian or graph neural networks to model manually inferred AU relations from annotations of specified datasets. However, these inflexible methods fail to perform cross dataset evaluation. Multitask AU detection methods are inspired by the phenomena that facial shapes represented by facial landmarks are helpful in AU detection and facial deformations caused by active AUs affect the location distribution of landmarks. Except for detecting facial AUs, such methods typically estimate facial landmarks or recognize facial expressions in a multitask manner. Other tasks of facial emotion analysis, such as emotional dimension estimation, can be incorporated in the multitask learning setting. Video-based methods are categorized into strategies that rely on temporal representation and self-supervised learning. Temporal representation learning methods commonly adopt long short-term memory (LSTM) or 3D convolutional neural networks (3D-CNNs) to model the temporal information. Other temporal representation approaches utilize optical flow between frames to detect facial AUs. Several self-supervised approaches have recently exploited the prior knowledge that facial actions, which are movements of facial muscles and between facial frames, can be used as the self-supervisory signal. Such video-based weakly supervised AU detection methods are reasonable and explainable and can effectively alleviate the problem of insufficient AU annotations. However, these methods rely on massive amounts of unlabeled video data in the training phase and fail to perform AU detection in an end-to-end manner. We also review methods that exploit point cloud or thermal images for AU detection and are capable of alleviating the influence of head pose or illumination. Finally, we compare representative methods and analyze their advantages and drawbacks. The analysis summarizes and discusses challenges and potential directions of AU detection. We conclude that methods capable of utilizing weakly annotated or unlabeled data are important research directions for future investigations. Such methods should be carefully designed according to the prior knowledge of AUs to alleviate the demand for large amounts of labeled data." /><meta property="og:image" content="https://dualplus.github.io/media/icon_hu6a4c22a3e5388e8d98a1bea1d53893d8_41243_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:description" content="A survey in Journal of image and Graphics(in Chinese), 25(11):2293-2305, 2020." /><meta property="og:image" content="https://dualplus.github.io/media/icon_hu6a4c22a3e5388e8d98a1bea1d53893d8_41243_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://dualplus.github.io/media/icon_hu6a4c22a3e5388e8d98a1bea1d53893d8_41243_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -346,7 +345,7 @@
       "url": "https://dualplus.github.io/media/icon_hu6a4c22a3e5388e8d98a1bea1d53893d8_41243_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "The anatomically based facial action coding system defines a unique set of atomic nonoverlapping facial muscle actions called action units (AUs), which can accurately characterize facial expression. AUs correspond to muscular activities that produce momentary changes in facial appearance. Combinations of AUs can represent any facial expression. As a multilabel classification problem, AU detection suffers from insufficient AU annotations, various head poses, individual differences, and imbalance among different AUs. This article systematically summarizes representative methods that have been proposed since 2016 to facilitate the development of AU detection methods. According to different input data, AU detection methods are categorized on the basis of images, videos, and other modalities. We also discuss how AU detection methods can deal with partial supervision given the large scale of unlabeled data. Image-based methods, including approaches that learn local facial representations, exploit AU relations and utilize multitask and weakly supervised learning methods. Handcrafted or automatically learned local facial representations can represent local deformations caused by active AUs. However, the former is incapable of representing different AUs with adaptive local regions while the latter suffers from insufficient training data. Approaches that exploit AU relations can utilize prior knowledge that some AUs appear together or exclusively at the same time. Such methods adopt either Bayesian or graph neural networks to model manually inferred AU relations from annotations of specified datasets. However, these inflexible methods fail to perform cross dataset evaluation. Multitask AU detection methods are inspired by the phenomena that facial shapes represented by facial landmarks are helpful in AU detection and facial deformations caused by active AUs affect the location distribution of landmarks. Except for detecting facial AUs, such methods typically estimate facial landmarks or recognize facial expressions in a multitask manner. Other tasks of facial emotion analysis, such as emotional dimension estimation, can be incorporated in the multitask learning setting. Video-based methods are categorized into strategies that rely on temporal representation and self-supervised learning. Temporal representation learning methods commonly adopt long short-term memory (LSTM) or 3D convolutional neural networks (3D-CNNs) to model the temporal information. Other temporal representation approaches utilize optical flow between frames to detect facial AUs. Several self-supervised approaches have recently exploited the prior knowledge that facial actions, which are movements of facial muscles and between facial frames, can be used as the self-supervisory signal. Such video-based weakly supervised AU detection methods are reasonable and explainable and can effectively alleviate the problem of insufficient AU annotations. However, these methods rely on massive amounts of unlabeled video data in the training phase and fail to perform AU detection in an end-to-end manner. We also review methods that exploit point cloud or thermal images for AU detection and are capable of alleviating the influence of head pose or illumination. Finally, we compare representative methods and analyze their advantages and drawbacks. The analysis summarizes and discusses challenges and potential directions of AU detection. We conclude that methods capable of utilizing weakly annotated or unlabeled data are important research directions for future investigations. Such methods should be carefully designed according to the prior knowledge of AUs to alleviate the demand for large amounts of labeled data."
+  "description": "A survey in Journal of image and Graphics(in Chinese), 25(11):2293-2305, 2020."
 }
 </script>
 
@@ -616,8 +615,6 @@
 
       
       
-        
-      
 
       
       
@@ -771,6 +768,12 @@
 
 
 
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/project/au/">
+    Project
+  </a>
+  
+
 
 
 
@@ -862,90 +865,6 @@
 
 
 
-<div class="share-box" aria-hidden="true">
-  <ul class="share">
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://twitter.com/intent/tweet?url=https://dualplus.github.io/publication/2020-ausurvey/&amp;text=Progress%20and%20Challenges%20in%20Facial%20Action%20Unit%20Detection" target="_blank" rel="noopener" class="share-btn-twitter">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://dualplus.github.io/publication/2020-ausurvey/&amp;t=Progress%20and%20Challenges%20in%20Facial%20Action%20Unit%20Detection" target="_blank" rel="noopener" class="share-btn-facebook">
-          <i class="fab fa-facebook"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="mailto:?subject=Progress%20and%20Challenges%20in%20Facial%20Action%20Unit%20Detection&amp;body=https://dualplus.github.io/publication/2020-ausurvey/" target="_blank" rel="noopener" class="share-btn-email">
-          <i class="fas fa-envelope"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://dualplus.github.io/publication/2020-ausurvey/&amp;title=Progress%20and%20Challenges%20in%20Facial%20Action%20Unit%20Detection" target="_blank" rel="noopener" class="share-btn-linkedin">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="whatsapp://send?text=Progress%20and%20Challenges%20in%20Facial%20Action%20Unit%20Detection%20https://dualplus.github.io/publication/2020-ausurvey/" target="_blank" rel="noopener" class="share-btn-whatsapp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://dualplus.github.io/publication/2020-ausurvey/&amp;title=Progress%20and%20Challenges%20in%20Facial%20Action%20Unit%20Detection" target="_blank" rel="noopener" class="share-btn-weibo">
-          <i class="fab fa-weibo"></i>
-        </a>
-      </li>
-    
-  </ul>
-</div>
-
 
 
 
@@ -970,21 +889,19 @@
 
   
   
-  
-    
   
   
   
   <div class="media author-card content-widget-hr">
     
       
-      <a href="https://dualplus.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_huc39475a7bdf41e923fe1e69f7783f977_1131251_270x270_fill_q75_lanczos_center.jpg" alt="Jiabei Zeng"></a>
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_huc39475a7bdf41e923fe1e69f7783f977_1131251_270x270_fill_q75_lanczos_center.jpg" alt="Jiabei Zeng">
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="https://dualplus.github.io/">Jiabei Zeng</a></h5>
+      <h5 class="card-title">Jiabei Zeng</h5>
       <h6 class="card-subtitle">Associate Professor</h6>
-      <p class="card-text">My research interests include computer vision, machine learning, and affective computing.</p>
+      
       <ul class="network-icon" aria-hidden="true">
   
     
@@ -996,10 +913,8 @@
     
     
     
-      
-    
     <li>
-      <a href="/#contact" >
+      <a href="mailto:jiabei.zeng@ict.ac.cn" >
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -1085,26 +1000,6 @@
 
 
 
-
-  
-  
-  <div class="article-widget content-widget-hr">
-    <h3>Related</h3>
-    <ul>
-      
-      <li><a href="/publication/2020-fgw-emot/">Facial Expression Recognition for In-the-wild Videos</a></li>
-      
-      <li><a href="/publication/2020-tpami-tae/">Learning Representations for Facial Actions from Unlabeled Videos</a></li>
-      
-      <li><a href="/publication/2019-icip-multitask/">Multi-task Learning of Emotion Recognition and Facial Action Unit Detection with Adaptively Weights Sharing Network</a></li>
-      
-      <li><a href="/publication/2019-tip-pg/">Occlusion Aware Facial Expression Recognition Using CNN With Attention Mechanism</a></li>
-      
-      <li><a href="/publication/2018-accv-zero/">Zero-shot Facial Expression Recognition with Multi-label Label Propagation</a></li>
-      
-    </ul>
-  </div>
-  
 
 
 

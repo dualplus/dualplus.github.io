@@ -30,5 +30,21 @@
 </description>
     </item>
     
+    <item>
+      <title>Cross-Encoder for Unsupervised Gaze Representation Learning</title>
+      <link>https://dualplus.github.io/publication/2021-iccv-crossencoder/</link>
+      <pubDate>Tue, 26 Oct 2021 18:54:51 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2021-iccv-crossencoder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gaze Estimation with an Ensemble of Four Architectures</title>
+      <link>https://dualplus.github.io/publication/2021-xgazechal/</link>
+      <pubDate>Mon, 31 May 2021 16:16:16 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2021-xgazechal/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

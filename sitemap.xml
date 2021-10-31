@@ -35,6 +35,9 @@
     <loc>https://dualplus.github.io/project/3d_gaze/</loc>
     <lastmod>2021-10-28T09:17:09+08:00</lastmod>
   </url><url>
+    <loc>https://dualplus.github.io/tag/au/</loc>
+    <lastmod>2021-10-28T09:13:08+08:00</lastmod>
+  </url><url>
     <loc>https://dualplus.github.io/project/au/</loc>
     <lastmod>2021-10-28T09:13:08+08:00</lastmod>
   </url><url>
@@ -42,6 +45,9 @@
     <lastmod>2021-10-28T09:13:08+08:00</lastmod>
   </url><url>
     <loc>https://dualplus.github.io/project/emotion/</loc>
+    <lastmod>2021-10-28T09:06:10+08:00</lastmod>
+  </url><url>
+    <loc>https://dualplus.github.io/tag/fer/</loc>
     <lastmod>2021-10-28T09:06:10+08:00</lastmod>
   </url><url>
     <loc>https://dualplus.github.io/project/cross-encoder/</loc>
@@ -57,9 +63,6 @@
     <lastmod>2021-10-26T18:54:51+08:00</lastmod>
   </url><url>
     <loc>https://dualplus.github.io/publication/2021-iccv-crossencoder/</loc>
-    <lastmod>2021-10-26T18:54:51+08:00</lastmod>
-  </url><url>
-    <loc>https://dualplus.github.io/tag/gaze/</loc>
     <lastmod>2021-10-26T18:54:51+08:00</lastmod>
   </url><url>
     <loc>https://dualplus.github.io/publication_types/</loc>
@@ -116,9 +119,6 @@
     <loc>https://dualplus.github.io/publication/2020-tpami-tae/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dualplus.github.io/tag/self-supervised/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dualplus.github.io/publication/2019-icip-multitask/</loc>
     <lastmod>2019-09-15T21:24:32+08:00</lastmod>
   </url><url>
@@ -138,6 +138,9 @@
     <lastmod>2018-12-04T19:20:55+08:00</lastmod>
   </url><url>
     <loc>https://dualplus.github.io/publication/2018-icmi-engagement/</loc>
+    <lastmod>2018-10-26T21:25:17+08:00</lastmod>
+  </url><url>
+    <loc>https://dualplus.github.io/tag/engagement-estimation/</loc>
     <lastmod>2018-10-26T21:25:17+08:00</lastmod>
   </url><url>
     <loc>https://dualplus.github.io/publication/2018-eccv-latent/</loc>

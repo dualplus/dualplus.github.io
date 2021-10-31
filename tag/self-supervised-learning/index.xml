@@ -28,5 +28,29 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Cross-Encoder for Unsupervised Gaze Representation Learning</title>
+      <link>https://dualplus.github.io/publication/2021-iccv-crossencoder/</link>
+      <pubDate>Tue, 26 Oct 2021 18:54:51 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2021-iccv-crossencoder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Representations for Facial Actions from Unlabeled Videos</title>
+      <link>https://dualplus.github.io/publication/2020-tpami-tae/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://dualplus.github.io/publication/2020-tpami-tae/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-supervised Representation Learning from Videos for Facial Action Unit Detection</title>
+      <link>https://dualplus.github.io/publication/2019-cvpr-tcae/</link>
+      <pubDate>Sun, 16 Jun 2019 19:19:34 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2019-cvpr-tcae/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
