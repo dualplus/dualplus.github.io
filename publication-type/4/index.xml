@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4 | JIABEI ZENG</title>
+    <link>https://dualplus.github.io/publication-type/4/</link>
+      <atom:link href="https://dualplus.github.io/publication-type/4/index.xml" rel="self" type="application/rss+xml" />
+    <description>4</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 31 May 2021 16:16:16 +0800</lastBuildDate>
+    <image>
+      <url>https://dualplus.github.io/media/icon_hu6a4c22a3e5388e8d98a1bea1d53893d8_41243_512x512_fill_lanczos_center_3.png</url>
+      <title>4</title>
+      <link>https://dualplus.github.io/publication-type/4/</link>
+    </image>
+    
+    <item>
+      <title>Gaze Estimation with an Ensemble of Four Architectures</title>
+      <link>https://dualplus.github.io/publication/2021-xgazechal/</link>
+      <pubDate>Mon, 31 May 2021 16:16:16 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2021-xgazechal/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
