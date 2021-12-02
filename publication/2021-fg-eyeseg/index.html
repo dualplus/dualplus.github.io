@@ -26,10 +26,11 @@
   
     
   
-  <meta name="description" content="" />
+  <meta name="description" content="Learning an accurate and robust eye semantic segmentation model generally requires enormous training data with delicate segmentation annotations. However, labeling the data is time-consuming and manpower consuming. To address this issue, we propose to segment the eyes using unlabelled eye images and a weak empirical prior on the eye shape. To make the segmentation interpretable, we leverage the prior knowledge of eye shape by converting the self-supervised learned landmarks of each eye component to the segmentation maps. Specifically, we design a symmetrical auto-encoder architecture to learn disentangled representations of eye appearance and eye shape in a self-supervised manner. The eye shape is represented as the landmarks on the eyes. The proposed method encodes the eye images into the eye shapes and appearance features and then it reconstructs the image according to the eye shape and the appearance feature of another image.
+Since the landmarks of the training images are unknown, we require the generated landmarks&#39; pictorial representations to have the same distribution as a known prior by minimizing an adversarial loss. Experiments on TEyeD and UnitySeg datasets demonstrate that the proposed self-supervised method is comparable with supervised ones. When the labeled data is insufficient, the proposed self-supervised method provides a better pre-trained model than other initialization methods." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://dualplus.github.io/publication-type/1/" />
+  <link rel="alternate" hreflang="en-us" href="https://dualplus.github.io/publication/2021-fg-eyeseg/" />
 
   
 
@@ -267,8 +268,6 @@
   
 
   
-    <link rel="alternate" href="/publication-type/1/index.xml" type="application/rss+xml" title="JIABEI ZENG" />
-  
 
   
     <link rel="manifest" href="/manifest.webmanifest" />
@@ -277,7 +276,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu6a4c22a3e5388e8d98a1bea1d53893d8_41243_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu6a4c22a3e5388e8d98a1bea1d53893d8_41243_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://dualplus.github.io/publication-type/1/" />
+  <link rel="canonical" href="https://dualplus.github.io/publication/2021-fg-eyeseg/" />
 
   
   
@@ -294,33 +293,81 @@
   <meta property="twitter:card" content="summary" />
   
   <meta property="og:site_name" content="JIABEI ZENG" />
-  <meta property="og:url" content="https://dualplus.github.io/publication-type/1/" />
-  <meta property="og:title" content="1 | JIABEI ZENG" />
-  <meta property="og:description" content="" /><meta property="og:image" content="https://dualplus.github.io/media/icon_hu6a4c22a3e5388e8d98a1bea1d53893d8_41243_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:url" content="https://dualplus.github.io/publication/2021-fg-eyeseg/" />
+  <meta property="og:title" content="Landmark-aware Self-supervised Eye Semantic Segmentationg | JIABEI ZENG" />
+  <meta property="og:description" content="Learning an accurate and robust eye semantic segmentation model generally requires enormous training data with delicate segmentation annotations. However, labeling the data is time-consuming and manpower consuming. To address this issue, we propose to segment the eyes using unlabelled eye images and a weak empirical prior on the eye shape. To make the segmentation interpretable, we leverage the prior knowledge of eye shape by converting the self-supervised learned landmarks of each eye component to the segmentation maps. Specifically, we design a symmetrical auto-encoder architecture to learn disentangled representations of eye appearance and eye shape in a self-supervised manner. The eye shape is represented as the landmarks on the eyes. The proposed method encodes the eye images into the eye shapes and appearance features and then it reconstructs the image according to the eye shape and the appearance feature of another image.
+Since the landmarks of the training images are unknown, we require the generated landmarks&#39; pictorial representations to have the same distribution as a known prior by minimizing an adversarial loss. Experiments on TEyeD and UnitySeg datasets demonstrate that the proposed self-supervised method is comparable with supervised ones. When the labeled data is insufficient, the proposed self-supervised method provides a better pre-trained model than other initialization methods." /><meta property="og:image" content="https://dualplus.github.io/media/icon_hu6a4c22a3e5388e8d98a1bea1d53893d8_41243_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://dualplus.github.io/media/icon_hu6a4c22a3e5388e8d98a1bea1d53893d8_41243_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2021-12-02T09:07:13&#43;08:00" />
+      <meta
+        property="article:published_time"
+        content="2021-12-02T09:07:13&#43;08:00"
+      />
     
+    <meta property="article:modified_time" content="2021-12-02T09:07:13&#43;08:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://dualplus.github.io/publication/2021-fg-eyeseg/"
+  },
+  "headline": "Landmark-aware Self-supervised Eye Semantic Segmentationg",
+  
+  "datePublished": "2021-12-02T09:07:13+08:00",
+  "dateModified": "2021-12-02T09:07:13+08:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Xin Cai"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "JIABEI ZENG",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://dualplus.github.io/media/icon_hu6a4c22a3e5388e8d98a1bea1d53893d8_41243_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Learning an accurate and robust eye semantic segmentation model generally requires enormous training data with delicate segmentation annotations. However, labeling the data is time-consuming and manpower consuming. To address this issue, we propose to segment the eyes using unlabelled eye images and a weak empirical prior on the eye shape. To make the segmentation interpretable, we leverage the prior knowledge of eye shape by converting the self-supervised learned landmarks of each eye component to the segmentation maps. Specifically, we design a symmetrical auto-encoder architecture to learn disentangled representations of eye appearance and eye shape in a self-supervised manner. The eye shape is represented as the landmarks on the eyes. The proposed method encodes the eye images into the eye shapes and appearance features and then it reconstructs the image according to the eye shape and the appearance feature of another image.\nSince the landmarks of the training images are unknown, we require the generated landmarks' pictorial representations to have the same distribution as a known prior by minimizing an adversarial loss. Experiments on TEyeD and UnitySeg datasets demonstrate that the proposed self-supervised method is comparable with supervised ones. When the labeled data is insufficient, the proposed self-supervised method provides a better pre-trained model than other initialization methods."
+}
+</script>
+
+  
+
+  
+
   
 
   
 
 
 
-  
-
-  
 
 
-
-
-
-  <title>1 | JIABEI ZENG</title>
+  <title>Landmark-aware Self-supervised Eye Semantic Segmentationg | JIABEI ZENG</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   "  >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="61b81fc89758324d786311b55375516d" >
 
   
   
@@ -619,6 +666,17 @@
 
 
 
+<div class="pub">
+
+  
+
+
+
+
+
+
+
+
 
 
 
@@ -627,300 +685,126 @@
 
   
   
+  
+<div class="article-container pt-3">
+  <h1>Landmark-aware Self-supervised Eye Semantic Segmentationg</h1>
+
+  
+
   
     
-  
-<div class="universal-wrapper pt-3">
-  <h1>1</h1>
-
-  
-
-  
-</div>
 
 
-
-<div class="universal-wrapper">
-  
+<div class="article-metadata">
 
   
   
+  
+  
+  <div>
     
-      
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/2018-icpr-pg/" >Patch-gated CNN for Occlusion-aware Facial Expression Recognition</a>
-    </div>
-
-    
-    <a href="/publication/2018-icpr-pg/"  class="summary-link">
-      <div class="article-style">
-        in International Conference on Pattern Recognition (ICPR), 2018. [Oral]
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
 
   <span >
-      Yong Li</span>, <span class="author-highlighted">
+      Xin Cai</span>, <span class="author-highlighted">
       Jiabei Zeng</span>, <span >
-      Shiguang Shan</span>, <span >
-      Xilin Chen</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://www.jdl.link/doc/2011/201911019432863571_2018092516364248.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/2018-icpr-pg/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/emotion/">
-    Project
-  </a>
-  
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    
-
+      Shiguang Shan</span>
   </div>
-  <div class="ml-3">
+  
+  
+
+  
+  <span class="article-date">
     
     
-  </div>
+      
+    
+    December 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
 </div>
 
     
-  
-    
-      
-
-
-
-
-
-
-
-  
-
-
 
 
 
 
 
   
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/2018-fg-yuanyuan/" >Multi-Channel Pose-Aware Convolution Neural Networks for Multi-View Facial Expression Recognition</a>
-    </div>
-
-    
-    <a href="/publication/2018-fg-yuanyuan/"  class="summary-link">
-      <div class="article-style">
-        Although tremendous strides have been made in facial expression recognition(FER), recognizing facial expressions in non-frontal views …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      Yuanyuan Liu</span>, <span class="author-highlighted">
-      Jiabei Zeng</span>, <span >
-      Shiguang Shan</span>, <span >
-      Zhuo Zheng</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://ieeexplore.ieee.org/abstract/document/8373867" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/2018-fg-yuanyuan/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
 </div>
 
-    
-  
-    
-      
 
 
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/2017-acmmmw-kinship/" >Kinnet: Fine-to-coarse Deep Metric Learning for Kinship Verification</a>
-    </div>
+  <div class="article-container">
 
     
-    <a href="/publication/2017-acmmmw-kinship/"  class="summary-link">
-      <div class="article-style">
-        Automatic kinship verification has attracted increasing attentions as it holds promise to an abundance of applications. However, …
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Learning an accurate and robust eye semantic segmentation model generally requires enormous training data with delicate segmentation annotations. However, labeling the data is time-consuming and manpower consuming. To address this issue, we propose to segment the eyes using unlabelled eye images and a weak empirical prior on the eye shape. To make the segmentation interpretable, we leverage the prior knowledge of eye shape by converting the self-supervised learned landmarks of each eye component to the segmentation maps. Specifically, we design a symmetrical auto-encoder architecture to learn disentangled representations of eye appearance and eye shape in a self-supervised manner. The eye shape is represented as the landmarks on the eyes. The proposed method encodes the eye images into the eye shapes and appearance features and then it reconstructs the image according to the eye shape and the appearance feature of another image.
+Since the landmarks of the training images are unknown, we require the generated landmarks' pictorial representations to have the same distribution as a known prior by minimizing an adversarial loss. Experiments on TEyeD and UnitySeg datasets demonstrate that the proposed self-supervised method is comparable with supervised ones. When the labeled data is insufficient, the proposed self-supervised method provides a better pre-trained model than other initialization methods.</p>
+    
+
+    
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+          </div>
+        </div>
       </div>
-    </a>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
     
 
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      Yong Li</span>, <span class="author-highlighted">
-      Jiabei Zeng</span>, <span >
-      Jie Zhang</span>, <span >
-      Anbo Dai</span>, <span >
-      Meina Kan</span>, <span >
-      Shiguang Shan</span>, <span >
-      Xilin Chen</span>
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">International Conference on Automatic Face and Gesture Recognition, 2021</div>
+        </div>
       </div>
-      
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
 
     
-    <div class="btn-links">
-      
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -930,21 +814,114 @@
 
 
   
+  
     
+
+
+
+
+  
+    
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_huc39475a7bdf41e923fe1e69f7783f977_1131251_270x270_fill_q75_lanczos_center.jpg" alt="Jiabei Zeng">
+    
+
+    <div class="media-body">
+      <h5 class="card-title">Jiabei Zeng</h5>
+      <h6 class="card-subtitle">Associate Professor</h6>
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:jiabei.zeng@ict.ac.cn" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://vipl.ict.ac.cn/people/~jiabeizeng" target="_blank" rel="noopener">
+        <i class="fas fa-home"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=N9elZDYAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/dualplus" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+
+
+
+
   
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dl.acm.org/doi/abs/10.1145/3134421.3134425" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/2017-acmmmw-kinship/cite.bib">
-  Cite
-</a>
 
 
 
@@ -959,283 +936,8 @@
 
 
 
-
-    </div>
-    
 
   </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/2015-iccv-cpm/" >Confidence Preserving Machine for Facial Action Unit Detection</a>
-    </div>
-
-    
-    <a href="/publication/2015-iccv-cpm/"  class="summary-link">
-      <div class="article-style">
-        in Proceedings of the IEEE International Conference on Computer Vision (ICCV), 2015.
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span class="author-highlighted">
-      Jiabei Zeng</span>, <span >
-      Wen-Sheng Chu</span>, <span >
-      Fernando de la Torre</span>, <span >
-      Jeffery F. Cohn</span>, <span >
-      Zhang Xiong</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://openaccess.thecvf.com/content_iccv_2015/papers/Zeng_Confidence_Preserving_Machine_ICCV_2015_paper.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/2015-iccv-cpm/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/au/">
-    Project
-  </a>
-  
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publication/2015-iccv-cpm/poster.pdf" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
-
-
-
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/2015-iccv-usd/" >Unsupervised Synchrony Discovery in Human Interaction</a>
-    </div>
-
-    
-    <a href="/publication/2015-iccv-usd/"  class="summary-link">
-      <div class="article-style">
-        People are inherently social. Social interaction plays an important and natural role in human behavior. Most computational methods …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      Wen-Sheng Chu</span>, <span class="author-highlighted">
-      Jiabei Zeng</span>, <span >
-      Fernando de la Torre</span>, <span >
-      Jeffery F. Cohn</span>, <span >
-      Daniel S. Messinger</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://openaccess.thecvf.com/content_iccv_2015/papers/Chu_Unsupervised_Synchrony_Discovery_ICCV_2015_paper.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/2015-iccv-usd/cite.bib">
-  Cite
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publication/2015-iccv-usd/usd_2015.zip" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publication/2015-iccv-usd/poster.pdf" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publication/2015-iccv-usd/usd.mp4" target="_blank" rel="noopener">
-  Video
-</a>
-
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-    
-  
-
-  
-<nav class="mt-1">
-  <ul class="pagination justify-content-center">
-    
-    <li class="page-item"><a class="page-link" href="/publication-type/1/">&laquo;</a></li>
-    
-    
-  </ul>
-</nav>
-
-
 </div>
   </div>
 

@@ -5,12 +5,28 @@
     <link>https://dualplus.github.io/publication-type/1/</link>
       <atom:link href="https://dualplus.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 26 Oct 2021 18:54:51 +0800</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 02 Dec 2021 09:07:13 +0800</lastBuildDate>
     <image>
       <url>https://dualplus.github.io/media/icon_hu6a4c22a3e5388e8d98a1bea1d53893d8_41243_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
       <link>https://dualplus.github.io/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>Landmark-aware Self-supervised Eye Semantic Segmentationg</title>
+      <link>https://dualplus.github.io/publication/2021-fg-eyeseg/</link>
+      <pubDate>Thu, 02 Dec 2021 09:07:13 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2021-fg-eyeseg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emotion-aware Contrastive Learning for Facial Action Unit Detection</title>
+      <link>https://dualplus.github.io/publication/2021-fg-emoco/</link>
+      <pubDate>Thu, 02 Dec 2021 09:07:02 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2021-fg-emoco/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Cross-Encoder for Unsupervised Gaze Representation Learning</title>
