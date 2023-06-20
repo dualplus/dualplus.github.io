@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emotion | JIABEI ZENG</title>
+    <link>https://dualplus.github.io/tag/emotion/</link>
+      <atom:link href="https://dualplus.github.io/tag/emotion/index.xml" rel="self" type="application/rss+xml" />
+    <description>Emotion</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 May 2023 18:54:51 +0800</lastBuildDate>
+    <image>
+      <url>https://dualplus.github.io/media/icon_hu6a4c22a3e5388e8d98a1bea1d53893d8_41243_512x512_fill_lanczos_center_3.png</url>
+      <title>Emotion</title>
+      <link>https://dualplus.github.io/tag/emotion/</link>
+    </image>
+    
+    <item>
+      <title>Joint spatial and scale attention network for multi-view facial expression recognition</title>
+      <link>https://dualplus.github.io/publication/2023-pr/</link>
+      <pubDate>Mon, 01 May 2023 18:54:51 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2023-pr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MAFW: A Large-scale, Multi-modal, Compound Affective Database for Dynamic Facial Expression Recognition in the Wild</title>
+      <link>https://dualplus.github.io/publication/2022-mafw/</link>
+      <pubDate>Wed, 01 Jun 2022 18:54:51 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2022-mafw/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

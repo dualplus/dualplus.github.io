@@ -5,12 +5,36 @@
     <link>https://dualplus.github.io/publication-type/1/</link>
       <atom:link href="https://dualplus.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 02 Dec 2021 09:07:13 +0800</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 19 Jun 2023 18:54:51 +0800</lastBuildDate>
     <image>
       <url>https://dualplus.github.io/media/icon_hu6a4c22a3e5388e8d98a1bea1d53893d8_41243_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
       <link>https://dualplus.github.io/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>Source-Free Adaptive Gaze Estimation by Uncertainty Reduction</title>
+      <link>https://dualplus.github.io/publication/2023-cvpr/</link>
+      <pubDate>Mon, 19 Jun 2023 18:54:51 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2023-cvpr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gaze Pattern Recognition in Dyadic Communication</title>
+      <link>https://dualplus.github.io/publication/2023-etra/</link>
+      <pubDate>Thu, 01 Jun 2023 18:54:51 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2023-etra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MAFW: A Large-scale, Multi-modal, Compound Affective Database for Dynamic Facial Expression Recognition in the Wild</title>
+      <link>https://dualplus.github.io/publication/2022-mafw/</link>
+      <pubDate>Wed, 01 Jun 2022 18:54:51 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2022-mafw/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Landmark-aware Self-supervised Eye Semantic Segmentation</title>

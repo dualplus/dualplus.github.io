@@ -5,7 +5,7 @@
     <link>https://dualplus.github.io/tag/gaze-estimation/</link>
       <atom:link href="https://dualplus.github.io/tag/gaze-estimation/index.xml" rel="self" type="application/rss+xml" />
     <description>gaze-estimation</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 28 Oct 2021 09:17:16 +0800</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 19 Jun 2023 18:54:51 +0800</lastBuildDate>
     <image>
       <url>https://dualplus.github.io/media/icon_hu6a4c22a3e5388e8d98a1bea1d53893d8_41243_512x512_fill_lanczos_center_3.png</url>
       <title>gaze-estimation</title>
@@ -13,12 +13,35 @@
     </image>
     
     <item>
-      <title>2D Gaze Estimation</title>
+      <title>Source-Free Adaptive Gaze Estimation by Uncertainty Reduction</title>
+      <link>https://dualplus.github.io/publication/2023-cvpr/</link>
+      <pubDate>Mon, 19 Jun 2023 18:54:51 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2023-cvpr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gaze Pattern Recognition in Dyadic Communication</title>
+      <link>https://dualplus.github.io/publication/2023-etra/</link>
+      <pubDate>Thu, 01 Jun 2023 18:54:51 +0800</pubDate>
+      <guid>https://dualplus.github.io/publication/2023-etra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gaze in Scene</title>
+      <link>https://dualplus.github.io/project/gaze_follow/</link>
+      <pubDate>Wed, 22 Mar 2023 19:09:21 +0800</pubDate>
+      <guid>https://dualplus.github.io/project/gaze_follow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Point-of-Gaze(PoG) Estimation</title>
       <link>https://dualplus.github.io/project/2d_gaze/</link>
       <pubDate>Thu, 28 Oct 2021 09:17:16 +0800</pubDate>
       <guid>https://dualplus.github.io/project/2d_gaze/</guid>
-      <description>&lt;p&gt;TBD&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -26,8 +49,7 @@
       <link>https://dualplus.github.io/project/3d_gaze/</link>
       <pubDate>Thu, 28 Oct 2021 09:17:09 +0800</pubDate>
       <guid>https://dualplus.github.io/project/3d_gaze/</guid>
-      <description>&lt;p&gt;TBD&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
